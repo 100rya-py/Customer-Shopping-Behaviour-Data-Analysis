@@ -1,0 +1,23 @@
+CUSTOMER SHOPPING BEHAVIOR ANALYSIS: KEY INSIGHTS
+
+1. Project Overview
+This project analyzes customer shopping behavior using transactional data from 3,900 purchases across various product categories. The goal is to uncover insights into spending patterns, customer segments, product preferences, and subscription behavior to guide strategic business decisions.
+
+2. Executive Summary
+The analysis reveals a highly loyal customer base, though subscription rates remain relatively low. Male customers and the 'Young Adult' demographic are the primary revenue drivers. While average spending is consistent across groups, total revenue is heavily reliant on volume from non-subscribers, indicating a massive untapped potential for subscription growth among existing loyalists.
+
+3. Data & Methodology
+* Scale: Analyzed a dataset comprising 3,900 customer records and 18 features.
+* Tools Used: Python (Pandas) for data cleaning and feature engineering, PostgreSQL for structured querying, and Power BI for dashboard visualization.
+* Data Transformations: Handled 37 missing 'Review Rating' values by imputing category-specific medians to eliminate bias. Standardized column structures, dropped redundant promotional features, and engineered new segments like 'age_group' and 'purchase_frequency_days'.
+
+4. Key Data Insights
+* Demographic Revenue Drivers: Male customers generated more than double the revenue ($157,890) compared to female customers ($75,191). Additionally, the 'Young Adult' segment leads all age groups with $62,143 in total revenue.
+* Customer Segmentation: An overwhelming majority of the base falls into the 'Loyal' segment (3,116 customers), compared to just 701 'Returning' and 83 'New' customers.
+* Subscription Discrepancy: Only 27% of the customer base are subscribers. While average spend between subscribers ($59.49) and non-subscribers ($59.87) is nearly identical, non-subscribers generate significantly more total revenue ($170,436 vs. $62,645) simply due to their sheer volume.
+* Product Trends: Hats experience the highest discount application rate (50.00%), whereas Gloves boast the highest average customer satisfaction with a review rating of 3.86.
+
+5. Actionable Recommendations
+* Convert Loyalists to Subscribers: With over 3,000 'Loyal' customers but only 1,053 active subscribers, implement aggressive, targeted loyalty programs to shift these high-frequency buyers into recurring subscription models.
+* Optimize Discount Strategies: Re-evaluate the margins on heavily discounted items like Hats and Sneakers. Conversely, leverage high-rated items like Gloves and Sandals as premium offerings in marketing campaigns.
+* Targeted Demographic Campaigns: Focus customer acquisition and upselling efforts on Male and Young Adult demographics, as they demonstrate the highest revenue-generating potential.
