@@ -39,7 +39,7 @@ Once the data was clean, I moved it into a SQL database to answer the tough ques
 ## 📊 Step 3: The Dashboard (Power BI)
 Finally, I brought it all together in an interactive dashboard. This allows stakeholders to filter by Age, Gender, and Category to see how different groups behave.
 
-![Dashboard Placeholder](https://github.com/100rya-py/Customer-Shopping-Behaviour-Data-Analysis/blob/main/Dashboard%20Preview.png)
+![Dashboard Placeholder](https://github.com/100rya-py/Customer-Shopping-Behaviour-Data-Analysis/blob/main/assets/screenshot/Dashboard%20Preview.png)
 
 
 **Key Visual Insights:**
